@@ -9,7 +9,7 @@ docker build -t junlapong/hazelcast .
 
 ## Run
 ```
-docker run -ti junlapong/hazelcast
+docker run --rm -ti junlapong/hazelcast
 ```
 
 ## Bash

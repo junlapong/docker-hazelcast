@@ -1,5 +1,5 @@
 FROM anapsix/alpine-java:8_server-jre_unlimited
-ENV HZ_VERSION 3.7.2
+ENV HZ_VERSION 3.7.4
 ENV HZ_HOME /opt/hazelcast/
 RUN mkdir -p $HZ_HOME
 WORKDIR $HZ_HOME
